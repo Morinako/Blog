@@ -1,0 +1,182 @@
+{
+  "groups": [
+    {
+      "name": "qq",
+      "type": "com.bin.config.QQConfigProperties",
+      "sourceType": "com.bin.config.QQConfigProperties"
+    },
+    {
+      "name": "upload.oss",
+      "type": "com.bin.config.OssConfigProperties",
+      "sourceType": "com.bin.config.OssConfigProperties"
+    },
+    {
+      "name": "weibo",
+      "type": "com.bin.config.WeiboConfigProperties",
+      "sourceType": "com.bin.config.WeiboConfigProperties"
+    },
+    {
+      "name": "weibo-mobile",
+      "type": "com.bin.config.WeiboMobileConfigProperties",
+      "sourceType": "com.bin.config.WeiboMobileConfigProperties"
+    },
+    {
+      "name": "wx",
+      "type": "com.bin.config.wxConfigProperties",
+      "sourceType": "com.bin.config.wxConfigProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "qq.app-id",
+      "type": "java.lang.String",
+      "description": "QQ appId",
+      "sourceType": "com.bin.config.QQConfigProperties"
+    },
+    {
+      "name": "qq.check-token-url",
+      "type": "java.lang.String",
+      "description": "校验token地址",
+      "sourceType": "com.bin.config.QQConfigProperties"
+    },
+    {
+      "name": "qq.qq-unique-info-url",
+      "type": "java.lang.String",
+      "description": "@Description: TODO qq小程序唯一信息地址",
+      "sourceType": "com.bin.config.QQConfigProperties"
+    },
+    {
+      "name": "qq.unique-info-url",
+      "type": "java.lang.String",
+      "description": "@Description: TODO App唯一信息地址",
+      "sourceType": "com.bin.config.QQConfigProperties"
+    },
+    {
+      "name": "qq.user-info-url",
+      "type": "java.lang.String",
+      "description": "QQ用户信息地址",
+      "sourceType": "com.bin.config.QQConfigProperties"
+    },
+    {
+      "name": "upload.oss.access-key-id",
+      "type": "java.lang.String",
+      "description": "访问密钥id",
+      "sourceType": "com.bin.config.OssConfigProperties"
+    },
+    {
+      "name": "upload.oss.access-key-secret",
+      "type": "java.lang.String",
+      "description": "访问密钥密码",
+      "sourceType": "com.bin.config.OssConfigProperties"
+    },
+    {
+      "name": "upload.oss.bucket-name",
+      "type": "java.lang.String",
+      "description": "bucket名称",
+      "sourceType": "com.bin.config.OssConfigProperties"
+    },
+    {
+      "name": "upload.oss.endpoint",
+      "type": "java.lang.String",
+      "description": "终点",
+      "sourceType": "com.bin.config.OssConfigProperties"
+    },
+    {
+      "name": "upload.oss.url",
+      "type": "java.lang.String",
+      "description": "oss域名",
+      "sourceType": "com.bin.config.OssConfigProperties"
+    },
+    {
+      "name": "weibo-mobile.access-token-url",
+      "type": "java.lang.String",
+      "description": "微博访问令牌地址",
+      "sourceType": "com.bin.config.WeiboMobileConfigProperties"
+    },
+    {
+      "name": "weibo-mobile.app-id",
+      "type": "java.lang.String",
+      "description": "微博appId",
+      "sourceType": "com.bin.config.WeiboMobileConfigProperties"
+    },
+    {
+      "name": "weibo-mobile.app-secret",
+      "type": "java.lang.String",
+      "description": "微博appSecret",
+      "sourceType": "com.bin.config.WeiboMobileConfigProperties"
+    },
+    {
+      "name": "weibo-mobile.grant-type",
+      "type": "java.lang.String",
+      "description": "微博登录类型",
+      "sourceType": "com.bin.config.WeiboMobileConfigProperties"
+    },
+    {
+      "name": "weibo-mobile.redirect-url",
+      "type": "java.lang.String",
+      "description": "微博回调域名",
+      "sourceType": "com.bin.config.WeiboMobileConfigProperties"
+    },
+    {
+      "name": "weibo-mobile.user-info-url",
+      "type": "java.lang.String",
+      "description": "微博用户信息地址",
+      "sourceType": "com.bin.config.WeiboMobileConfigProperties"
+    },
+    {
+      "name": "weibo.access-token-url",
+      "type": "java.lang.String",
+      "description": "微博访问令牌地址",
+      "sourceType": "com.bin.config.WeiboConfigProperties"
+    },
+    {
+      "name": "weibo.app-id",
+      "type": "java.lang.String",
+      "description": "微博appId",
+      "sourceType": "com.bin.config.WeiboConfigProperties"
+    },
+    {
+      "name": "weibo.app-secret",
+      "type": "java.lang.String",
+      "description": "微博appSecret",
+      "sourceType": "com.bin.config.WeiboConfigProperties"
+    },
+    {
+      "name": "weibo.grant-type",
+      "type": "java.lang.String",
+      "description": "微博登录类型",
+      "sourceType": "com.bin.config.WeiboConfigProperties"
+    },
+    {
+      "name": "weibo.redirect-url",
+      "type": "java.lang.String",
+      "description": "微博回调域名",
+      "sourceType": "com.bin.config.WeiboConfigProperties"
+    },
+    {
+      "name": "weibo.user-info-url",
+      "type": "java.lang.String",
+      "description": "微博用户信息地址",
+      "sourceType": "com.bin.config.WeiboConfigProperties"
+    },
+    {
+      "name": "wx.app-id",
+      "type": "java.lang.String",
+      "description": "微信 appId",
+      "sourceType": "com.bin.config.wxConfigProperties"
+    },
+    {
+      "name": "wx.openid-url",
+      "type": "java.lang.String",
+      "description": "微信用户信息地址",
+      "sourceType": "com.bin.config.wxConfigProperties"
+    },
+    {
+      "name": "wx.secret",
+      "type": "java.lang.String",
+      "description": "微信 secret",
+      "sourceType": "com.bin.config.wxConfigProperties"
+    }
+  ],
+  "hints": []
+}
